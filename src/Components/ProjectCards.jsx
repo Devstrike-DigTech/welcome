@@ -9,7 +9,7 @@
 
 import { motion } from "framer-motion";
 import { styles } from '../styles'
-import { projects } from "../Constants/constants";
+// import { projects } from "../Constants/constants";
 import { Tilt } from "react-tilt";
 import { githubIcon } from "../assets";
 
@@ -103,7 +103,7 @@ export const slideIn = (direction, type, delay, duration) => {
 };
 
 const SectionWrapper = (Component, idName) =>
-  function HOC() {
+  function HOC(props) {
     return (
       <motion.section
         variants={staggerContainer()}
@@ -116,7 +116,7 @@ const SectionWrapper = (Component, idName) =>
         <span className='hash-span' id={idName}>
           &nbsp;
         </span>
-        <Component />
+        <Component {...props} />
       </motion.section>
     )
   };
@@ -136,7 +136,7 @@ const SectionWrapper = (Component, idName) =>
           style={{ marginTop: '-120%' }}
           >
           <div
-            className="relative w-full h-[180px]"
+              className="relative w-full h-[180px]"
           >
             <img
               src={image}
@@ -184,7 +184,7 @@ const SectionWrapper = (Component, idName) =>
     )
   }
 
-const Works = () => {
+const Works = ({projects}) => {
   return (
     <>
       <div className="w-full flex">

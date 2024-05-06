@@ -37,6 +37,9 @@ import memoryGame from './projects/memory.jpg';
 import onboarding from './projects/Onboarding.png'
 import ims from './projects/ims.png'
 import citrab from './projects/citrab.png'
+import namek from './projects/namek.png'
+import natours from './projects/natours.png'
+import photo from './projects/photo.png'
 
 // Avatar
 // import avatar from './avatar/avatar.png';
@@ -69,4 +72,7 @@ export {
   citrab,
   avatar,
   bl33hIcon,
+  namek,
+  natours,
+  photo,
 };

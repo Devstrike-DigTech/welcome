@@ -46,6 +46,9 @@ import {
   onboarding,
   ims,
   avatar,
+  namek,
+  natours,
+  photo,
 } from '../assets';
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -84,7 +87,7 @@ const icons = {
 
 const introduction = {
   text: [
-    "Empowering Businesses Through Innovative Digitization Solutions: Meet DevStrike",
+    'Empowering Businesses Through Innovative Digitization Solutions: Meet DevStrike',
 
     `Welcome to DevStrike, where we specialize in revolutionizing businesses through cutting-edge digitization software. 
     With a combined experience of 5 years in the industry, we take pride in our global recognition for delivering top-notch services in website and mobile app development, 
@@ -123,7 +126,44 @@ export const navLinks = [
 
 const projects = [
   {
-    name: 'Envision Management System',
+    name: 'Namek Solutions Website Project',
+    description: `For this project, we had the opportunity to redesign the website for Namek Solutions,
+   a dynamic technology company specializing in innovative software solutions.
+   The goal was to refresh their online presence, highlighting their focus on cutting-edge technology
+   and client satisfaction. The redesigned website features a modern and user-friendly interface, with intuitive navigation and compelling content.
+   It was a rewarding experience to collaborate
+   with Namek Solutions and bring their vision to life, creating a platform that reflects their brand identity and engages visitors effectively.`,
+    image: namek,
+    source_code_link: 'https://nameksolutions-demo.onrender.com/',
+    demo_link: 'https://nameksolutions-demo.onrender.com/',
+  },
+  {
+    name: 'Natours Website Project',
+    description: `In this project, we undertook the design of the website for Natours, a prominent 
+    tours management and booking platform. Our objective was to enhance the user experience and 
+    streamline the booking process for travelers seeking unforgettable adventures.
+     The revamped website boasts a fresh, contemporary design, coupled with seamless navigation and captivating imagery to inspire wanderlust. Through meticulous attention to detail and user-centric features, we aimed to create a platform that not only showcases Natours' offerings but also facilitates effortless exploration 
+    and booking for users.`,
+    image: natours,
+    source_code_link: 'https://natours-8jhz.onrender.com/',
+    demo_link: 'https://natours-8jhz.onrender.com/',
+  },
+  {
+    name: 'PhotoStrike Website Project',
+    description: `We worked on the development of PhotoStrike, a comprehensive website tailored for a professional photographer to showcase their portfolio, 
+    manage bookings, and display client testimonials. The primary goal was to create a visually 
+    stunning platform that not only highlights the photographer's exceptional work but also 
+    provides a seamless booking experience for potential clients. Through strategic design elements and user-friendly features, such as an intuitive booking system and a dedicated section for client reviews, PhotoStrike offers a captivating and informative experience for visitors.
+ `,
+    image: photo,
+    source_code_link: 'https://equa-dev.github.io/PhotoStrike-Single.github.io/',
+    demo_link: 'https://equa-dev.github.io/PhotoStrike-Single.github.io/',
+  },
+];
+
+const projects2 = [
+  {
+    name: 'Envision Management',
     description: `Our team developed a user-friendly and efficient inventory management system that provides real-time tracking of stock levels, 
     streamlined product and supplier management, and seamless order processing. The system includes robust reporting and analytics for informed decision-making, 
     integrates with other business systems, and prioritizes security through authentication and data encryption.`,
@@ -132,8 +172,8 @@ const projects = [
     demo_link: 'https://github.com/Devstrike-DigTech',
   },
   {
-    name: "WalkIt",
-    description:  `WalkIt is an android demo application that simulates the flow and functionality of an e-commerce customer end application. The case study industry in this demo is a Shoes store e-commerce application where the user can view various shoes by brands, bookmark or add desired shoes to cart, login, select the desired shoe size and colour, as well as make payment for the product. 
+    name: 'WalkIt',
+    description: `WalkIt is an android demo application that simulates the flow and functionality of an e-commerce customer end application. The case study industry in this demo is a Shoes store e-commerce application where the user can view various shoes by brands, bookmark or add desired shoes to cart, login, select the desired shoe size and colour, as well as make payment for the product. 
     All data in this demo are simulated but would entertain the same flow as with live data.`,
     image: onboarding,
     source_code_link: 'https://drive.google.com/drive/folders/1QewdhjNIzaPdsIfkfXLfU_G0jC3l5u6k?usp=sharing',
@@ -165,122 +205,24 @@ const skills = [
   {
     id: 'css2',
     title: 'Software Development',
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKvJPmOzA60D1qCB7KNeq7N440VQx27SDh_Kl0Z8WOeubf_EobOmMN2w8pozWoqcp4Frc&usqp=CAU",
+    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKvJPmOzA60D1qCB7KNeq7N440VQx27SDh_Kl0Z8WOeubf_EobOmMN2w8pozWoqcp4Frc&usqp=CAU',
     description:
     'Our software development services encompass full-stack development expertise across a range of technologies. We deliver custom software solutions that align with your unique requirements, leveraging agile methodologies to ensure timely delivery and continuous improvement.',
   },
   {
     id: 'css1',
     title: 'UI/UX Design',
-    icon: "https://www.nyusoft.com/wp-content/themes/twentytwentyone-child/images/services/UI-UX-design-services/banner-image-ui-ux.png",
+    icon: 'https://www.nyusoft.com/wp-content/themes/twentytwentyone-child/images/services/UI-UX-design-services/banner-image-ui-ux.png',
     description:
     'Our UI/UX design services focus on creating intuitive, visually appealing, and user-friendly interfaces for digital products. We prioritize user research, wireframing, prototyping, and iterative design to ensure seamless user experiences across web and mobile platforms.',
   },
   {
     id: 'css',
     title: 'Software Prototyping',
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMN2URl3dZzvPlmJAZJuE1u7AiUj_Jsvht14fFL9-6WQ&s",
+    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMN2URl3dZzvPlmJAZJuE1u7AiUj_Jsvht14fFL9-6WQ&s',
     description:
     'We offer comprehensive software prototyping services to validate concepts, gather feedback, and iterate quickly. Through rapid prototyping techniques, we transform ideas into tangible prototypes, allowing stakeholders to visualize and refine product features before development, ultimately reducing time-to-market and minimizing risks.',
   },
-  // {
-  //   id: 'javascript',
-  //   title: 'JavaScript',
-  //   icon: jsIcon,
-  //   description:
-  //   'We have substantial experience in employing JavaScript to introduce interactivity and functionality into web pages, resulting in dynamic user interfaces.',
-  // },
-  // {
-  //   id: 'react',
-  //   title: 'React',
-  //   icon: reactIcon,
-  //   description:
-  //     'We am well-versed in React, proficient in creating reusable components and managing application state using hooks and context.',
-  // },
-  // {
-  //   id: 'java',
-  //   title: 'Java',
-  //   icon: javaIcon,
-  //   description:
-  //     'We have extensive experience utilizing Java for object-oriented programming (OOP) and implementing data structures.',
-  // },
-  // {
-  //   id: 'aws',
-  //   title: 'Amazon Web Services',
-  //   icon: awsIcon,
-  //   description:
-  //     'We am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.',
-  // },
-  // {
-  //   id: 'figma',
-  //   title: 'Figma',
-  //   icon: figmaIcon,
-  //   description:
-  //   'In my Figma skills, We unleash creativity, designing captivating user interfaces and collaborating seamlessly with designers and developers.',
-  // },
-  // {
-  //   id: 'git',
-  //   title: 'Git',
-  //   icon: gitIcon,
-  //   description:
-  //   'We am proficient in Git, managing code changes, collaborating with others, and resolving conflicts effectively.',
-  // },
-  // {
-  //   id: 'github',
-  //   title: 'GitHub',
-  //   icon: githubIcon,
-  //   description:
-  //     'We am skilled in using GitHub for seamless project collaboration, code sharing, and issue tracking. Through GitHub, We efficiently create and manage repositories and effectively present my work to potential employers.',
-  // },
-  // {
-  //   id: 'psql',
-  //   title: 'Postgresql',
-  //   icon: psqlIcon,
-  //   description:
-  //     'We have a strong command of PostgreSQL, encompassing a wide range of skills such as database normalization, triggers, front-end connectivity, and data analysis using software like Power BI.',
-  // },
-  // {
-  //   id: 'vite',
-  //   title: 'Vite',
-  //   icon: viteIcon,
-  //   description:
-  //     'We have gained considerable experience working with Vite for approximately six months, leveraging its capabilities to build React websites and seamlessly deploy them on platforms like Netlify.',
-  // },
-  // {
-  //   id: 'py',
-  //   title: 'Python',
-  //   icon: pyIcon,
-  //   description:
-  //     'With 3 years of Python experience, We am adept at coding functions and creating graphic interfaces using Tkinter.',
-  // },
-  // {
-  //   id: 'node',
-  //   title: 'Node',
-  //   icon: nodeIcon,
-  //   description:
-  //     'When it comes to building web applications, We prefer using Node as my runtime environment over Yarn. We have expertise in leveraging Node.js to develop powerful and scalable web applications.',
-  // },
-  // {
-  //   id: 'neo',
-  //   title: 'Neo4j',
-  //   icon: neoIcon,
-  //   description:
-  //     'We am knowledgeable in Neo4j, the graph database management system. We have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.',
-  // },
-  // {
-  //   id: 'raspi',
-  //   title: 'Raspberry Pi',
-  //   icon: raspIcon,
-  //   description:
-  //     'We have hands-on experience with Raspberry Pi, where We utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.',
-  // },
-  // {
-  //   id: 'eslint',
-  //   title: 'Eslint',
-  //   icon: eslintIcon,
-  //   description:
-  //     'We utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, We ensure code quality and consistency throughout my development process.',
-  // },
 ];
 
 const markerSvg = `<svg viewBox="-4 0 36 36">
@@ -296,4 +238,5 @@ export {
   skills,
   markerSvg,
   icons,
+  projects2
 };

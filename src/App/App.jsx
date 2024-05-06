@@ -13,6 +13,7 @@ import Projects from "../Pages/Projects";
 import About from "../Pages/About";
 import Skills from "../Pages/Skills";
 import Contact from "../Pages/Contact";
+import {projects, projects2} from '../Constants/constants.js'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       <NavBar />
       <Hero />
       <About />
-      <Projects />
+      <Projects subtitle={'Our work so far'} projects={projects} />
+      <Projects subtitle={'more'} projects={projects2} />
       <Skills />
       <Contact />
     </>
