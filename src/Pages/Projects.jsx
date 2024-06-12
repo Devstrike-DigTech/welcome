@@ -7,10 +7,10 @@
    Last modification: 03/06/2023
 */
 
-import SectionTitle from "../Components/SectionTitle";
-import ProjectCards from "../Components/ProjectCards";
+import SectionTitle from '../Components/SectionTitle';
+import ProjectCards from '../Components/ProjectCards';
 
-const Projects = ({ subtitle, projects }) => {
+function Projects({ subtitle, projects }) {
   return (
     <div id="projects" className="w-full overflow-hidden-web flex justify-center">
       <div className="w-full min-h-[800px] h-screen xl:w-[70%] relative mt-40 flex flex-col items-center justify-center pb-36">
@@ -18,15 +18,14 @@ const Projects = ({ subtitle, projects }) => {
           <SectionTitle title="PROJECTS" subtitle={subtitle} />
         </div>
         <div className="w-full h-[70%] z-10 flex justify-center">
-          <div className="w-full xl:w-[70%] h-[-10%">
+          <div className="w-full xl:w-[70%] h-[-10%]">
             <ProjectCards projects={projects} />
           </div>
-          <div className="absolute w-full h-full top-[100%] right-[-75%] sm:right-[-50%]">
-          </div>
+          <div className="absolute w-full h-full top-[100%] right-[-75%] sm:right-[-50%]" />
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Projects;
