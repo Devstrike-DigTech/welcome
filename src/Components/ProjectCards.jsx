@@ -184,7 +184,7 @@ function Works({ projects }) {
         />
       </div>
 
-      <div className="mt-20 flex gap-7">
+      <div className="mt-20 flex flex-col items-center">
         {projects.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}
