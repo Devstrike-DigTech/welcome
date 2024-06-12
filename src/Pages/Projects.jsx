@@ -15,7 +15,7 @@ function Projects({ subtitle, projects }) {
     <div id="projects" className="w-full overflow-hidden-web flex justify-center">
       <div className="w-full min-h-[800px] h-screen xl:w-[70%] relative mt-40 flex flex-col items-center justify-center pb-36">
         <div className="w-full h-[180%] mt-[-10%] mb-[-10%]">
-          <SectionTitle title="PROJECTS" subtitle={subtitle} />
+          <SectionTitle title="PROJECTSSS" subtitle={subtitle} />
         </div>
         <div className="w-full h-[70%] z-10 flex justify-center">
           <div className="w-full xl:w-[70%] h-[-10%]">
