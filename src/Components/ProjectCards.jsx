@@ -184,12 +184,13 @@ function Works({ projects }) {
         />
       </div>
 
-      <div className="mt-20 flex flex-col items-center">
+      <div className="mt-20 flex flex-col items-center sm:flex-row sm:flex-wrap sm:justify-center">
         {projects.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}
             index={index}
             {...project}
+             className="mb-4 sm:mx-4"
           />
         ))}
       </div>
