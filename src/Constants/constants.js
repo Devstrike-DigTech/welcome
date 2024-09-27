@@ -126,38 +126,38 @@ export const navLinks = [
 
 const projects = [
   {
-    name: 'Namek Solutions Website Project',
-    description: `For this project, we had the opportunity to redesign the website for Namek Solutions,
-   a dynamic technology company specializing in innovative software solutions.
-   The goal was to refresh their online presence, highlighting their focus on cutting-edge technology
-   and client satisfaction. The redesigned website features a modern and user-friendly interface, with intuitive navigation and compelling content.
-   It was a rewarding experience to collaborate
-   with Namek Solutions and bring their vision to life, creating a platform that reflects their brand identity and engages visitors effectively.`,
+    name: 'Bookmi',
+    description: `BookMi is a versatile travel platform where users can seamlessly book tours, 
+    hotels, car rentals, and even purchase houses. With integrated features for leaving comments,
+    ratings, and reviews, it ensures a dynamic and interactive travel experience. 
+    Discover and plan your perfect getaway with ease.`,
     image: namek,
-    source_code_link: 'https://nameksolutions-demo.onrender.com/',
-    demo_link: 'https://nameksolutions-demo.onrender.com/',
+    source_code_link: 'https://book-mi.vercel.app/',
+    demo_link: 'https://book-mi.vercel.app/',
   },
   {
     name: 'Natours Website Project',
     description: `In this project, we undertook the design of the website for Natours, a prominent 
     tours management and booking platform. Our objective was to enhance the user experience and 
     streamline the booking process for travelers seeking unforgettable adventures.
-     The revamped website boasts a fresh, contemporary design, coupled with seamless navigation and captivating imagery to inspire wanderlust. Through meticulous attention to detail and user-centric features, we aimed to create a platform that not only showcases Natours' offerings but also facilitates effortless exploration 
+     The revamped website boasts a fresh, contemporary design, 
+     coupled with seamless navigation and captivating imagery to inspire wanderlust. 
+     Through meticulous attention to detail and user-centric features,
+     we aimed to create a platform that not only showcases Natours' offerings but also facilitates effortless exploration 
     and booking for users.`,
     image: natours,
     source_code_link: 'https://natours-8jhz.onrender.com/',
     demo_link: 'https://natours-8jhz.onrender.com/',
   },
   {
-    name: 'PhotoStrike Website Project',
-    description: `We worked on the development of PhotoStrike, a comprehensive website tailored for a professional photographer to showcase their portfolio, 
-    manage bookings, and display client testimonials. The primary goal was to create a visually 
-    stunning platform that not only highlights the photographer's exceptional work but also 
-    provides a seamless booking experience for potential clients. Through strategic design elements and user-friendly features, such as an intuitive booking system and a dedicated section for client reviews, PhotoStrike offers a captivating and informative experience for visitors.
- `,
+    name: 'Techville',
+    description: `We proudly developed the landing page for Techville, a forward-thinking software development company. 
+    This modern, user-friendly platform showcases their innovative services and expertise in technology solutions. 
+    With a focus on clean design and seamless navigation, 
+    the Techville site serves as a powerful digital presence, attracting clients and partners in the tech industry.`,
     image: photo,
-    source_code_link: 'https://equa-dev.github.io/PhotoStrike-Single.github.io/',
-    demo_link: 'https://equa-dev.github.io/PhotoStrike-Single.github.io/',
+    source_code_link: 'https://techville-landing-page.vercel.app/',
+    demo_link: 'https://techville-landing-page.vercel.app/',
   },
 ];
 
