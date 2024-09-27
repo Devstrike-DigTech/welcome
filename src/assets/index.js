@@ -38,8 +38,8 @@ import onboarding from './projects/Onboarding.png'
 import ims from './projects/ims.png'
 import citrab from './projects/citrab.png'
 import namek from './projects/namek.png'
-import natours from './projects/natours.png'
-import photo from './projects/photo.png'
+import natours from './projects/bookmi.png'
+import photo from './projects/techville.png'
 
 // Avatar
 // import avatar from './avatar/avatar.png';
